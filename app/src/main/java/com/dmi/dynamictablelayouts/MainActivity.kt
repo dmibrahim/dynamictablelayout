@@ -37,24 +37,27 @@ class MainActivity : AppCompatActivity() {
         codeTtx.text.clear()
         versionTxt.text.clear()
 
-        val tr1 = TableRow(this)
-        var trLayoutParams = TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-         trLayoutParams.setMargins(0,10,0,0)
-        trLayoutParams.gravity = Gravity.CENTER
-        tr1.layoutParams = trLayoutParams
-        tr1.setBackgroundColor(getColor(R.color.grey_200))
+        val tableRow = TableRow(this)
+        var layoutParams = TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+         layoutParams.setMargins(0,10,0,0)
+        layoutParams.gravity = Gravity.CENTER
+        tableRow.layoutParams = layoutParams
+        tableRow.setBackgroundColor(getColor(R.color.grey_200))
 
         val versionTxtView = TextView(this)
         versionTxtView.setText("$version")
         versionTxtView.gravity = Gravity.CENTER
         versionTxtView.setTextSize(TypedValue.COMPLEX_UNIT_SP,18f)
+
         val versionCodeTxt = TextView(this)
         versionCodeTxt.setText("$code")
         versionCodeTxt.gravity = Gravity.CENTER
         versionCodeTxt.setTextSize(TypedValue.COMPLEX_UNIT_SP,18f)
-        tr1.addView(versionTxtView)
-        tr1.addView(versionCodeTxt)
-        tblLayout.addView(tr1, trLayoutParams )
+
+        tableRow.addView(versionTxtView)
+        tableRow.addView(versionCodeTxt)
+
+        tblLayout.addView(tableRow, layoutParams )
 
     }
 

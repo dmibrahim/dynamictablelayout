@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/dynamicTableLayouts/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/dynamicTableLayout/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/dynamictablelayout/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment2/app/src/main/res/layout/activity_main.xml" value="0.1598731884057971" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment_2_dinnerdecider/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/lessontwo/app/src/main/res/layout/reference_layout_main.xml" value="0.1598731884057971" />
       </map>
     </option>
   </component>
