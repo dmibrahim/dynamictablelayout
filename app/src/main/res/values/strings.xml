@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dynamic TableLayout</string>
+    <string name="add_food">Add Food</string>
+    <string name="decide_food">Decide</string>
+</resources>
